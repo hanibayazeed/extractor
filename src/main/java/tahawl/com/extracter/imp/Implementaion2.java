@@ -36,7 +36,7 @@ public class Implementaion2 {
 	static Pattern typePattern = Pattern.compile("(\\{ teleservice:\\{)(.+)(\\} \\})");
 	static Pattern patternDuration = Pattern.compile("[^\"]+");
 	/*
-	 * static Pattern patternDate =
+	 * static Pattern patternDate = 
 	 * Pattern.compile("[\\d-]+ [0-9]{2}:[0-9]{2}:[0-9]{2}");
 	 */
 	static Pattern patternDate = Pattern.compile("([\\d]+-[\\d]+)");
